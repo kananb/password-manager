@@ -23,6 +23,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "quickstart": "electron .",
     "start": "react-scripts build && electron .",
     "build": "react-scripts build && electron-forge make",
     "test": "react-scripts test",
